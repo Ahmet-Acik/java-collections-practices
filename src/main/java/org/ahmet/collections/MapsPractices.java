@@ -6,18 +6,22 @@ public class MapsPractices {
 
     public static void main(String[] args) {
 
-        // **Map**: Interface for key-value pairs
-        /**
-         * Key Updates:
-         * 1. **HashMap**: Demonstrates unordered behavior, allows one `null` key and multiple `null` values.
-         *    - Covers `put`, `remove`, `keySet`, `values`, and `entrySet` methods.
-         * 2. **LinkedHashMap**: Highlights insertion order preservation, allows one `null` key and multiple `null` values.
-         *    - Covers `put`, `remove`, `keySet`, `values`, and `entrySet` methods.
-         * 3. **TreeMap**: Illustrates sorted order, disallows `null` keys, and allows `null` values.
-         *    - Covers `put`, `remove`, `keySet`, `values`, and `entrySet` methods.
-         * 4. **Hashtable**: Demonstrates thread-safety, disallows `null` keys and `null` values.
-         *    - Covers `put`, `remove`, `keySet`, `values`, and `entrySet` methods.
-         */
+        // **Map**: Interface for storing key-value pairs with unique keys
+         /**
+          * Key Characteristics:
+          * 1. **HashMap**:
+          *    - Unordered, allows one `null` key and multiple `null` values.
+          *    - Key methods: `put`, `remove`, `keySet`, `values`, `entrySet`.
+          * 2. **LinkedHashMap**:
+          *    - Maintains insertion order, allows one `null` key and multiple `null` values.
+          *    - Key methods: `put`, `remove`, `keySet`, `values`, `entrySet`.
+          * 3. **TreeMap**:
+          *    - Sorted by keys, does not allow null keys but allows null values.
+          *    - Key methods: `put`, `remove`, `keySet`, `values`, `entrySet`, firstKey(), lastKey(), subMap(), headMap(), tailMap().
+          * 4. **Hashtable**:
+          *    - Thread-safe, does not allow null keys or null values.
+          *    - Key methods: `put`, `remove`, `keySet`, `values`, `entrySet`.
+          */
 
         // **HashMap**: Unordered, allows one null key and multiple null values
         Map<String, String> hashMap = new HashMap<>();
