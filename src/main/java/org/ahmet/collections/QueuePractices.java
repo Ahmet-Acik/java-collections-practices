@@ -7,6 +7,14 @@ public class QueuePractices {
 
     public static void main(String[] args) {
 
+        /**
+         * Key Updates:
+         * 1. **PriorityQueue**: Demonstrates natural ordering and custom comparator usage.
+         *    - Covers `add`, `poll`, `peek`, `contains`, and `clear` methods.
+         * 2. **Null Handling**: Shows that `PriorityQueue` does not allow `null` values.
+         * 3. **Custom Comparator**: Illustrates reverse ordering using a custom comparator.
+         */
+
         // **PriorityQueue**: Elements are ordered based on their natural ordering or a comparator
         Queue<Integer> priorityQueue = new PriorityQueue<>();
 
