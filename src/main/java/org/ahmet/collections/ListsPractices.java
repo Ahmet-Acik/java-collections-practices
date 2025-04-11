@@ -6,6 +6,18 @@ public class ListsPractices {
 
     public static void main(String[] args) {
 
+        /**
+         * Key Updates:
+         * 1. **ArrayList**: Demonstrates fast random access, iteration, and modification methods.
+         *    - Covers `add`, `remove`, `get`, `size`, and `sort` methods.
+         * 2. **LinkedList**: Highlights efficient insertions and deletions.
+         *    - Covers `addFirst`, `addLast`, `removeFirst`, `removeLast`, and `getFirst` methods.
+         * 3. **Vector**: Illustrates thread-safe operations and capacity management.
+         *    - Covers `add`, `remove`, `capacity`, and `get` methods.
+         * 4. **Stack**: Demonstrates LIFO operations.
+         *    - Covers `push`, `pop`, `peek`, and `isEmpty` methods.
+        **/
+
         // **ArrayList**: Best for frequent access and iteration
         List<String> arrayList = new ArrayList<>(Arrays.asList("Apple", "Banana", "Cherry", "Date", "Elderberry"));
         System.out.println("ArrayList: " + arrayList);
