@@ -9,6 +9,16 @@ package org.ahmet.collections;
 
             public static void main(String[] args) {
 
+                /**
+                 * Key Updates:
+                 * 1. **HashSet**: Demonstrates unordered behavior, no duplicates, and allows one `null` value.
+                 *    - Covers `add`, `remove`, `contains`, `size`, and `clear` methods.
+                 * 2. **LinkedHashSet**: Highlights insertion order preservation and allows one `null` value.
+                 *    - Covers `add`, `remove`, and `clear` methods.
+                 * 3. **TreeSet**: Illustrates sorted order, no duplicates, and disallows `null` values.
+                 *    - Covers `add`, `remove`, `first`, `last`, and `size` methods.
+                 */
+
                 // **HashSet**: Unordered, no duplicates, allows one null value
                 Set<String> hashSet = new HashSet<>();
                 hashSet.add("Dog");
