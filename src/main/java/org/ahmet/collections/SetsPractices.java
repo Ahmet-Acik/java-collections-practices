@@ -58,6 +58,17 @@ public class SetsPractices {
         treeSet.add(10);
         treeSet.add(40);
 
+        // Attempt to add a duplicate element
+        boolean isAdded = treeSet.add(30); // Duplicate, won't be added
+        System.out.println("Attempt to add duplicate (30): " + isAdded);
+
+        // Attempt to add a null value
+        try {
+            treeSet.add(null); // Null value, will throw NullPointerException
+        } catch (NullPointerException e) {
+            System.out.println("TreeSet does not allow null values: " + e.getMessage());
+        }
+
         System.out.println("TreeSet contents: " + treeSet); // Sorted output
 
         // Access first and last elements
