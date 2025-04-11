@@ -7,6 +7,17 @@ public class MapsPractices {
     public static void main(String[] args) {
 
         // **Map**: Interface for key-value pairs
+        /**
+         * Key Updates:
+         * 1. **HashMap**: Demonstrates unordered behavior, allows one `null` key and multiple `null` values.
+         *    - Covers `put`, `remove`, `keySet`, `values`, and `entrySet` methods.
+         * 2. **LinkedHashMap**: Highlights insertion order preservation, allows one `null` key and multiple `null` values.
+         *    - Covers `put`, `remove`, `keySet`, `values`, and `entrySet` methods.
+         * 3. **TreeMap**: Illustrates sorted order, disallows `null` keys, and allows `null` values.
+         *    - Covers `put`, `remove`, `keySet`, `values`, and `entrySet` methods.
+         * 4. **Hashtable**: Demonstrates thread-safety, disallows `null` keys and `null` values.
+         *    - Covers `put`, `remove`, `keySet`, `values`, and `entrySet` methods.
+         */
 
         // **HashMap**: Unordered, allows one null key and multiple null values
         Map<String, String> hashMap = new HashMap<>();
