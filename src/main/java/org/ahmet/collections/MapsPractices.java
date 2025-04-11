@@ -50,8 +50,8 @@ public class MapsPractices {
         System.out.println("LinkedHashMap values: " + linkedHashMap.values());
         System.out.println("LinkedHashMap entrySet: " + linkedHashMap.entrySet());
 
-        // **TreeMap**: Sorted by keys, does not allow null keys but allows null values
-        Map<String, String> treeMap = new TreeMap<>();
+// **TreeMap**: Sorted by keys, does not allow null keys but allows null values
+        TreeMap<String, String> treeMap = new TreeMap<>();
         treeMap.put("K", "Kite");
         treeMap.put("J", "Jaguar");
         treeMap.put("L", "Lion");
@@ -62,10 +62,25 @@ public class MapsPractices {
         } catch (NullPointerException e) {
             System.out.println("\nTreeMap does not allow null keys: " + e.getMessage());
         }
+
+        // Display TreeMap contents
         System.out.println("\nTreeMap: " + treeMap); // Sorted by keys
         System.out.println("TreeMap keySet: " + treeMap.keySet());
         System.out.println("TreeMap values: " + treeMap.values());
         System.out.println("TreeMap entrySet: " + treeMap.entrySet());
+
+        // Additional methods
+        System.out.println("\nFirst key: " + treeMap.firstKey()); // First key
+        System.out.println("Last key: " + treeMap.lastKey()); // Last key
+
+        // SubMap: Get a view of the map between "J" (inclusive) and "L" (exclusive)
+        System.out.println("SubMap (J to L): " + treeMap.subMap("J", "L"));
+
+        // HeadMap: Get a view of the map with keys less than "L"
+        System.out.println("HeadMap (keys less than L): " + treeMap.headMap("L"));
+
+        // TailMap: Get a view of the map with keys greater than or equal to "L"
+        System.out.println("TailMap (keys greater than or equal to L): " + treeMap.tailMap("L"));
 
         // **Hashtable**: Synchronized, does not allow null keys or null values
         Map<String, String> hashtable = new Hashtable<>();
