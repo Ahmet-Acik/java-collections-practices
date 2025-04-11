@@ -10,16 +10,16 @@ public class MapsPractices {
          /**
           * Key Characteristics:
           * 1. **HashMap**:
-          *    - Unordered, allows one `null` key and multiple `null` values.
+          *    - Unordered, no duplicate keys (replaces previous), allows one null key and multiple null values.
           *    - Key methods: `put`, `remove`, `keySet`, `values`, `entrySet`.
           * 2. **LinkedHashMap**:
-          *    - Maintains insertion order, allows one `null` key and multiple `null` values.
+          *    - Maintains insertion order, no duplicate keys (replaces previous),  allows one `null` key and multiple `null` values.
           *    - Key methods: `put`, `remove`, `keySet`, `values`, `entrySet`.
           * 3. **TreeMap**:
-          *    - Sorted by keys, does not allow null keys but allows null values.
+          *    - Sorted by keys, no duplicate keys (replaces previous), does not allow null keys but allows null values.
           *    - Key methods: `put`, `remove`, `keySet`, `values`, `entrySet`, firstKey(), lastKey(), subMap(), headMap(), tailMap().
           * 4. **Hashtable**:
-          *    - Thread-safe, does not allow null keys or null values.
+          *    - Thread-safe, no duplicate keys (replaces previous),  does not allow null keys or null values.
           *    - Key methods: `put`, `remove`, `keySet`, `values`, `entrySet`.
           */
 
