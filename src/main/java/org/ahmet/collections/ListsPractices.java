@@ -6,17 +6,18 @@ public class ListsPractices {
 
     public static void main(String[] args) {
 
-        /**
-         * Key Updates:
-         * 1. **ArrayList**: Demonstrates fast random access, iteration, and modification methods.
-         *    - Covers `add`, `remove`, `get`, `size`, and `sort` methods.
-         * 2. **LinkedList**: Highlights efficient insertions and deletions.
-         *    - Covers `addFirst`, `addLast`, `removeFirst`, `removeLast`, and `getFirst` methods.
-         * 3. **Vector**: Illustrates thread-safe operations and capacity management.
-         *    - Covers `add`, `remove`, `capacity`, and `get` methods.
-         * 4. **Stack**: Demonstrates LIFO operations.
-         *    - Covers `push`, `pop`, `peek`, and `isEmpty` methods.
-        **/
+    /**
+     * Key Updates:
+     * - Lists are index-based, maintain insertion order, allow duplicates, and allow null values.
+     * 1. **ArrayList**: Highlights fast random access, efficient iteration, and modification methods.
+     *    - Demonstrates `add`, `remove`, `get`, `size`, and `sort` methods.
+     * 2. **LinkedList**: Highlights efficient insertions and deletions, especially at the beginning or end.
+     *    - Demonstrates `addFirst`, `addLast`, `removeFirst`, `removeLast`, and `getFirst` methods.
+     * 3. **Vector**: Illustrates thread-safe operations and dynamic capacity management.
+     *    - Demonstrates `add`, `remove`, `capacity`, and `get` methods.
+     * 4. **Stack**: Highlights LIFO (Last In, First Out) operations.
+     *    - Demonstrates `push`, `pop`, `peek`, and `isEmpty` methods.
+     */
 
         // **ArrayList**: Best for frequent access and iteration
         List<String> arrayList = new ArrayList<>(Arrays.asList("Apple", "Banana", "Cherry", "Date", "Elderberry"));
